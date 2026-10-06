@@ -30,9 +30,9 @@ import com.example.model.*
 import com.example.ui.theme.*
 import kotlinx.coroutines.launch
 
-// =========================================================================
-// 5. DASHBOARD ADMIN (LENGKAP DENGAN FITUR OLAH DATA OTOMATIS AI THINKING)
-// =========================================================================
+// 
+// bagian Dashboard Admin 
+// 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AdminDashboardScreen(
@@ -522,7 +522,7 @@ fun AdminDashboardScreen(
     }
   }
 
-  // DIALOG OLAH DATA OTOMATIS & PENALARAN TINGKAT TINGGI (GEMINI 3.1 PRO)
+  // DIALOG OLAH DATA OTOMATIS & PENALARAN TINGKAT TINGGI 
   if (isAiDialogVisible) {
     val scrollDialog = rememberScrollState()
     AlertDialog(
@@ -672,9 +672,9 @@ fun AdminDashboardScreen(
   }
 }
 
-// =========================================================================
-// KOMPONEN UI: KARTU METRIK ADMIN (OPTIMIZED FLAT)
-// =========================================================================
+// 
+// komponen ui menggunakan metrixcard ini itak optimize
+// 
 @Composable
 fun AdminMetricCard(
   judul: String,
@@ -730,9 +730,9 @@ fun AdminMetricCard(
   }
 }
 
-// =========================================================================
-// KOMPONEN UI: BARIS TABEL ABSENSI (OPTIMIZED SCROLL)
-// =========================================================================
+// 
+// bagian komponen ui baris tabel absensi
+// 
 @Composable
 fun BarisTabelAbsensiCard(row: BarisAbsensiKaryawan) {
   val inisial = remember(row.nama) {
@@ -797,9 +797,9 @@ fun BarisTabelAbsensiCard(row: BarisAbsensiKaryawan) {
   }
 }
 
-// =========================================================================
-// DIALOG: EDIT DASHBOARD ADMIN
-// =========================================================================
+// 
+// dialog admin dashboard
+// 
 @Composable
 fun EditDashboardDialog(
   configSaatIni: KonfigurasiAdminDashboard,
