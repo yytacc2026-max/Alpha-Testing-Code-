@@ -41,9 +41,7 @@ private val DarkColorScheme = darkColorScheme(
 )
 
 /**
- * Konfigurasi warna seragam untuk semua Input Teks (OutlinedTextField).
- * Memastikan tulisan saat mengetik SELALU terlihat jelas (warna TextDark di atas latar putih),
- * tidak akan pernah berubah menjadi teks putih di atas latar putih pada tema/perangkat apapun.
+ * Konfigurasi warna seragam untuk semua Input Teks (OutlinedTextField)
  */
 @Composable
 fun absensiTextFieldColors() = OutlinedTextFieldDefaults.colors(
@@ -71,8 +69,8 @@ fun AbsensiKantorTheme(
   darkTheme: Boolean = isSystemInDarkTheme(),
   content: @Composable () -> Unit
 ) {
-  // Desain Absensi Kantor menggunakan palet bersih (Clean Light Design)
-  // sebagai tampilan utama identitas brand kantor.
+  // bagian Desain Absensi Kantor
+  // bagian tampilan utama identitas brand kantor.
   val colorScheme = LightColorScheme
 
   MaterialTheme(
