@@ -5,11 +5,7 @@ import android.content.SharedPreferences
 import org.json.JSONArray
 import org.json.JSONObject
 
-/**
- * =========================================================================
- * SESSION MANAGER (PENYIMPANAN LOKAL IDENTITAS & ABSENSI KARYAWAN)
- * =========================================================================
- * Menyimpan status pendaftaran, data absensi hari ini, dan riwayat di lokal perangkat.
+/** * Menyimpan status pendaftaran, data absensi hari ini, dan riwayat di lokal perangkat.
  */
 class SessionManager(context: Context) {
   private val prefs: SharedPreferences =
