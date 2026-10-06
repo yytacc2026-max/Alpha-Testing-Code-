@@ -8,7 +8,7 @@ import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 
-/**manajemen keamanan jaringan kantor lokal (INTRANET & GEOFENCING VALIDATION) 
+/**manajemen keamanan jaringan kantor lokal this is the problem guys (INTRANET & GEOFENCING VALIDATION) 
 */
 class JaringanKantorManager(private val context: Context) {
   // Batas toleransi radius kantor (meter)
