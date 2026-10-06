@@ -34,14 +34,9 @@ import com.example.model.DataKaryawan
 import com.example.model.JaringanKantorManager
 import com.example.ui.theme.*
 
-// =========================================================================
+//
 // 1. LAYAR UTAMA (ABSENSI KARYAWAN & AKSES ADMIN TERSEMBUNYI)
-// =========================================================================
-// Sesuai aturan flowchart:
-// "Karyawan yang sudah terdaftar langsung masuk ke Halaman Karyawan (tanpa register ulang)".
-// - Jika belum terdaftar: kartu menampilkan "Daftar Karyawan Baru"
-// - Jika sudah terdaftar: kartu menampilkan "Masuk Dashboard Karyawan" dengan nama karyawan terdaftar
-// - Dilengkapi status validasi Jaringan Kantor Lokal (Intranet & Geofencing)
+//
 @Composable
 fun RoleSelectionScreen(
   karyawanTerdaftar: DataKaryawan?,
