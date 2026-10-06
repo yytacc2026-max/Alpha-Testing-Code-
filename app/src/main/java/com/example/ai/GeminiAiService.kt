@@ -16,15 +16,7 @@ import org.json.JSONArray
 import org.json.JSONObject
 import java.util.concurrent.TimeUnit
 
-/**
- * =========================================================================
- * LAYANAN OLAH DATA OTOMATIS & ANALISIS KEHADIRAN CERDAS
- * MENGGUNAKAN GEMINI 3.1 PRO (HIGH THINKING MODE)
- * =========================================================================
- * Membaca seluruh isi database absensi lokal kantor dan melakukan penalaran mendalam
- * (High Thinking Level) untuk menyusun rekapitulasi, evaluasi ketepatan waktu,
- * deteksi anomali, serta rekomendasi kebijakan HRD kantor secara otomatis.
- */
+/***/
 object GeminiAiService {
   private const val MODEL_NAME = "gemini-3.1-pro-preview"
   private const val BASE_URL = "https://generativelanguage.googleapis.com/v1beta/models/$MODEL_NAME:generateContent"
