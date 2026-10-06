@@ -161,9 +161,9 @@ class SessionManager(context: Context) {
       .apply()
   }
 
-  // =========================================================================
-  // DATA ABSENSI & METRIK ADMIN (DIMULAI DARI 0, AKURAT SESUAI AKTIVITAS)
-  // =========================================================================
+  //
+  // Bagian Data Absensi
+  //
   fun getAdminDaftarAbsensi(): List<BarisAbsensiKaryawan> {
     val jsonStr = prefs.getString(KEY_ADMIN_ABSENSI_JSON, null) ?: return emptyList()
     val list = mutableListOf<BarisAbsensiKaryawan>()
@@ -247,9 +247,9 @@ class SessionManager(context: Context) {
       .apply()
   }
 
-  // =========================================================================
-  // RIWAYAT INPUT TERAKHIR DI PERANGKAT (FITUR ISI OTOMATIS PERSONAL)
-  // =========================================================================
+  // 
+  // Riwayat inputan
+  //
   fun simpanInputTerakhir(nip: String, nama: String, departemen: String) {
     if (nip.isNotBlank() || nama.isNotBlank()) {
       prefs.edit()
