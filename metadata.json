@@ -1,0 +1,6 @@
+{
+  "name": "Absensi Kantor",
+  "description": "Aplikasi Absensi Karyawan berbasis offline-first dengan alur Admin dan Karyawan, serta fitur olah data otomatis AI Thinking Mode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

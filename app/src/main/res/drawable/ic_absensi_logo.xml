@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Teal Rounded Card / Badge Base -->
+    <path
+        android:fillColor="#0B6B73"
+        android:pathData="M24,18h60c5.52,0 10,4.48 10,10v52c0,5.52 -4.48,10 -10,10H24c-5.52,0 -10,-4.48 -10,-10V28c0,-5.52 4.48,-10 10,-10z" />
+    <!-- Inner Accent Area -->
+    <path
+        android:fillColor="#1A8C94"
+        android:pathData="M26,22h56c4.42,0 8,3.58 8,8v44c0,4.42 -3.58,8 -8,8H26c-4.42,0 -8,-3.58 -8,-8V30c0,-4.42 3.58,-8 8,-8z" />
+    <!-- Clock circle on left -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,54m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0" />
+    <!-- Clock inner teal border -->
+    <path
+        android:fillColor="#D2EFF2"
+        android:pathData="M44,54m-13,0a13,13 0,1 1,26 0a13,13 0,1 1,-26 0" />
+    <!-- Clock hands -->
+    <path
+        android:fillColor="#0B6B73"
+        android:pathData="M43,45h2v10h6v2h-8z" />
+    <!-- Checkmark Badge on right -->
+    <path
+        android:fillColor="#1E9E6A"
+        android:pathData="M68,62m-13,0a13,13 0,1 1,26 0a13,13 0,1 1,-26 0" />
+    <!-- Checkmark icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,66.5l-4.5,-4.5l1.41,-1.41l3.09,3.09l7.09,-7.09l1.41,1.41z" />
+    <!-- ID lanyard / notch at top -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,16h12v5h-12z" />
+</vector>
