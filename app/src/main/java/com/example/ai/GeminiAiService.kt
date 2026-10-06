@@ -16,7 +16,9 @@ import org.json.JSONArray
 import org.json.JSONObject
 import java.util.concurrent.TimeUnit
 
-/***/
+/**LAYANAN OLAH DATA OTOMATIS & ANALISIS KEHADIRAN CERDAS
+* MENGGUNAKAN GEMINI
+*/
 object GeminiAiService {
   private const val MODEL_NAME = "gemini-3.1-pro-preview"
   private const val BASE_URL = "https://generativelanguage.googleapis.com/v1beta/models/$MODEL_NAME:generateContent"
