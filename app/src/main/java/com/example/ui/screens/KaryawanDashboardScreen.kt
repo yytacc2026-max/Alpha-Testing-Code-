@@ -35,9 +35,9 @@ import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat
 import java.util.*
 
-// =========================================================================
-// 4. DASHBOARD KARYAWAN (LENGKAP DENGAN FITUR OLAH DATA & AI THINKING)
-// =========================================================================
+// 
+// coding bagian dasboard untuk karyawan 
+// 
 enum class TabKaryawan(val label: String, val icon: ImageVector) {
   BERANDA("Beranda", Icons.Default.Home),
   RIWAYAT("Riwayat", Icons.Default.History),
@@ -73,7 +73,7 @@ fun KaryawanDashboardScreen(
   // Pesan Notifikasi Local
   var bannerPesanLokal by remember { mutableStateOf<String?>(null) }
 
-  // State AI Analisis Riwayat Karyawan (Gemini 3.1 Pro High Thinking)
+  // State AI Analisis Riwayat Karyawan 
   var isAiAnalisisOpen by remember { mutableStateOf(false) }
   var isAiLoading by remember { mutableStateOf(false) }
   var hasilAnalisisAi by remember { mutableStateOf<String?>(null) }
@@ -390,9 +390,9 @@ fun KaryawanDashboardScreen(
   }
 }
 
-// =========================================================================
+// 
 // SUB-KOMPOSABLE: BERANDA KARYAWAN
-// =========================================================================
+// 
 @Composable
 fun KontenBerandaKaryawan(
   karyawan: DataKaryawan,
@@ -993,9 +993,9 @@ fun KontenBerandaKaryawan(
   }
 }
 
-// =========================================================================
+// 
 // KOMPONEN UI: KARTU GRADIENT
-// =========================================================================
+// 
 @Composable
 fun KartuGradientAbsensi(
   absensiHariIni: AbsensiHariIni,
@@ -1289,9 +1289,9 @@ fun StatusPillBadge(status: StatusAbsensi) {
   }
 }
 
-// =========================================================================
+//
 // SUB-KOMPOSABLE: TAB RIWAYAT LENGKAP
-// =========================================================================
+// 
 @Composable
 fun KontenRiwayatKaryawan(
   daftarRiwayat: List<RiwayatAbsensiItem>,
@@ -1396,9 +1396,9 @@ fun KontenRiwayatKaryawan(
   }
 }
 
-// =========================================================================
+// 
 // SUB-KOMPOSABLE: TAB PENGAJUAN IZIN (DENGAN DRAFTER AI)
-// =========================================================================
+// 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun KontenPengajuanIzinKaryawan(
@@ -1583,9 +1583,9 @@ fun KontenPengajuanIzinKaryawan(
   }
 }
 
-// =========================================================================
+// 
 // SUB-KOMPOSABLE: TAB PROFIL KARYAWAN
-// =========================================================================
+// 
 @Composable
 fun KontenProfilKaryawan(
   karyawan: DataKaryawan,
