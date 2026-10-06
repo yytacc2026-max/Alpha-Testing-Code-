@@ -17,9 +17,9 @@ import com.example.ui.screens.*
 import com.example.ui.theme.AbsensiKantorTheme
 import com.example.ui.theme.BgLight
 
-// =========================================================================
-// ENUM RUTE NAVIGASI APLIKASI SESUAI FLOWCHART
-// =========================================================================
+// 
+// Rute navigasi aplikasi
+// 
 enum class LayarNavigasi {
   PILIH_PERAN,            // Layar awal membuka aplikasi
   LOGIN_ADMIN,            // Form Login Admin
