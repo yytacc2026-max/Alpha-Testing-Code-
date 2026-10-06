@@ -1,10 +1,6 @@
 package com.example.model
 
-/**
- * =========================================================================
- * MODEL DATA & SUMBER DATA CONTOH (DUMMY) UNTUK APLIKASI ABSENSI KANTOR
- * =========================================================================
- */
+/** Model Data dan sumber data */
 
 enum class PeranPengguna {
   BELUM_PILIH,
