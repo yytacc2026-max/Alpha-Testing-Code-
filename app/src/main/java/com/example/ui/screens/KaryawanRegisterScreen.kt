@@ -35,9 +35,9 @@ import com.example.model.JaringanKantorManager
 import com.example.model.SessionManager
 import com.example.ui.theme.*
 
-// =========================================================================
-// 3. HALAMAN REGISTER KARYAWAN (DILENGKAPI FITUR ANTI-KECURANGAN)
-// =========================================================================
+// 
+// 3. HALAMAN REGISTER KARYAWAN (FITUR ANTI-KECURANGAN)
+// 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun KaryawanRegisterScreen(
